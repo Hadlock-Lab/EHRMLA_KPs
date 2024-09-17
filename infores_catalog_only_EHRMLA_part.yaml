@@ -1,0 +1,19 @@
+  - id: infores:isb-EHRMLA-data
+    status: released
+    name: Multiomics EHRMLA May Treat API
+    xref:
+      - https://github.com/NCATSTranslator/Translator-All/wiki/Multiomics-EHRMLA-May-Treat-KP
+    knowledge level: predicted
+    agent type: computational_model
+    description: >-
+      Documentation of the Multiomics Electronic-Health-Record (EHR) Machine Learning Analysis (MLA) May Treat query web services.
+  - id: infores:automat-ehr-may-treat-kp
+    status: released
+    name: Automat Multiomics EHRMLA May Treat API
+    knowledge level: curated
+    agent type: not_provided
+    xref:
+      - https://github.com/NCATSTranslator/Translator-All/wiki/Automat
+    description: >-
+      A graph consisting of May Treat associations from Multiomics Electronic-Health-Record (EHR) Machine Learning Analysis (MLA)
+      using the Providence health records
