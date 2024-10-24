@@ -1,0 +1,19 @@
+## Check current openapi's version at:
+#openapi: 3.0.3
+## Need to update version number each time the KG is updated
+version: 0.1
+## Please input the name of the KP creates this API
+title: Multiomics EHRMLA Clinical Connections KP API
+## Update the contact person information is necessary
+contact:
+  email: qwei@systemsbiology.org
+## Define the component types
+component: KP
+## Recording which teams are involved
+team:
+    - Multiomics Provider
+    - Exposure Provider, SRI
+## Check the current biolink version at:
+#biolink-version: 3.1.1
+## Records of the corresponding infores name, please update accordingly
+infores: infores:automat-ehr-clinical-connections-kp

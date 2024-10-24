@@ -17,3 +17,22 @@
     description: >-
       A graph consisting of May Treat associations from Multiomics Electronic-Health-Record (EHR) Machine Learning Analysis (MLA)
       using the Providence health records
+  - id: infores:isb-EHRMLA-clinicalconnections
+    status: released
+    name: Multiomics EHRMLA Clinical Connections API
+    xref:
+      - https://github.com/NCATSTranslator/Translator-All/wiki/Multiomics-EHRMLA-Clinical-Connections-KP
+    knowledge level: predicted
+    agent type: computational_model
+    description: >-
+      Documentation of the Multiomics Electronic-Health-Record (EHR) Machine Learning Analysis (MLA) Clinical Connections query web services.
+  - id: infores:automat-ehr-clinical-connections-kp
+    status: released
+    name: Automat Multiomics EHRMLA Clinical Connections API
+    knowledge level: curated
+    agent type: not_provided
+    xref:
+      - https://github.com/NCATSTranslator/Translator-All/wiki/Automat
+    description: >-
+      A graph consisting of clinical connections associations from Multiomics Electronic-Health-Record (EHR) Machine Learning Analysis (MLA)
+      using the Providence health records
