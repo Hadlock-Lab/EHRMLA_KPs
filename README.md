@@ -7,10 +7,11 @@ Repo and Documentation of the Multiomics Electronic-Health-Record (EHR) Machine 
 Contains following folder and codes:
 1. 'version.yaml' : Minimal version file needed for Plater + Automat
 2. 'infores_catalog_only_EHRMLA_part.yaml': Partial file of infores_catalog.yaml
-3. Corresponding node & edge files can be find [here](https://console.cloud.google.com/storage/browser/multiomics_provider_kp_data_internal/EHRMLA_MayTreat/Latest_version_to_Plater?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&project=translatordevkps)
+3. Corresponding node & edge files can be find in the csv files folder of each KP
 
 ## Plater + Automat deployment procedure
 Steps:
+0. Make sure edge and node files are KGX format compliant (see current csv file's col)
 1. Prepare node, edge, and version.yaml files
 2. (Optional) Update infores_catalog yaml file if needed
 3. Send to contact [Evan Morris](emorris@renci.org), [Karamarie Fecho](kfecho@copperlineprofessionalsolutions.com) and notify an update
